@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="score">
+        <span id="playerScore">0</span>
+        <span id="botScore">0</span>
+    </div>
+    
+    <div class="choices">
+        
+         <h2>🧔<span id="userChoice">You</span> </h2>
+        <h2><span id="computerChoice">AI</span>🤖</h2>
+        
+    </div>
+    <div class="result">
+        <h2><span id="result">Choose Your Hand</span></h2>
+    </div>
+    
+    <div class="btn">
+        <button id="rock">✊</button>
+        <button id="scissors">✂️</button>
+        <button id="paper">✋</button>
+        
+        
+    </div>
+
+    <p id="reset" onclick="reset()">
+RESET
+    </ id="reset">
+
+    <script src="main.js"></script>
+</body>
+</html>
